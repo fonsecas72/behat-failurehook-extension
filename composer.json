@@ -1,0 +1,18 @@
+{
+    "name": "fonsecas72/behat-failurehook-extension",
+    "type": "behat-extension",
+    "description": "Exposes stuff when a test fails",
+    "keywords": ["debug", "screenshot"],
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Hugo Fonseca",
+            "email": "hdtfonseca@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fonsecas72\\FailureExpoExtension\\": "src/"
+        }
+    }
+}
